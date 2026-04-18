@@ -6,9 +6,20 @@
   "scripts": {
     "build": "tsc"
   },
-  "dependencies": {},
   "devDependencies": {
     "typescript": "^5.5.3"
   },
-  "private": true
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skorsens/spec-driven-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/skorsens/spec-driven-dev/issues"
+  },
+  "homepage": "https://github.com/skorsens/spec-driven-dev#readme"
 }
