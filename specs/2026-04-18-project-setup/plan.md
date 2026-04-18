@@ -28,3 +28,11 @@
 2. Add a `GET /` route in `src/index.ts` that serves the home page with `Content-Type: text/html`
 3. The page must include the clinic name, a one-line tagline, and a nav placeholder for future links
 4. Add a Vitest test asserting `GET /` returns `200` and the response body contains the clinic name
+
+## Task Group 6 — Layout & Styles
+1. Create `src/views/header.ts`, `src/views/footer.ts`, and `src/views/layout.ts` as the three subcomponents
+2. `layout.ts` wraps arbitrary page content inside a full HTML document with `<header>`, `<main>`, and `<footer>`
+3. Create `public/styles.css` with base styles
+4. Mount `serveStatic` from `@hono/node-server/serve-static` to serve `public/` at `/static`
+5. `layout.ts` links to `/static/styles.css` in `<head>`
+6. Refactor `home.ts` to use `layout()`

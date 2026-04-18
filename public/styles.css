@@ -1,0 +1,41 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: system-ui, sans-serif;
+  color: #1a1a1a;
+  background: #f9f9f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+header a { text-decoration: none; color: inherit; }
+header > a { font-weight: 700; font-size: 1.1rem; }
+header nav { display: flex; gap: 1.5rem; }
+header nav a { color: #555; font-size: 0.95rem; }
+header nav a:hover { color: #1a1a1a; }
+
+main {
+  flex: 1;
+  max-width: 860px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 2rem;
+  font-size: 0.85rem;
+  color: #888;
+  border-top: 1px solid #e5e5e5;
+}
