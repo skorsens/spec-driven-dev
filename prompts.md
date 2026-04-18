@@ -51,3 +51,6 @@ Add a task group to the plan to have a minimal AgentClinic home page and update 
 
 Update specs/2026-04-18-project-setup/plan.md and implementation of a main layout component with a header/main/footer as three subcomponents. Make a CSS file, import it, and link to it.
 
+## Prompt 4.2
+
+Update the spec to capture that the header, footer, and main components should be in their own files.
