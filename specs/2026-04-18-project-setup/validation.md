@@ -27,5 +27,11 @@ npm run dev
 ```
 Expected: server starts, migration runner logs that it applied 0 migration files, and no errors are thrown.
 
+### 5. Home page renders
+```bash
+curl http://localhost:3000/
+```
+Expected: `200 OK` with an HTML body containing "AgentClinic".
+
 ## Definition of Done
-All four criteria above pass. The branch is ready to merge into `master` and unblock Phase 2.
+All five criteria above pass. The branch is ready to merge into `master` and unblock Phase 2.

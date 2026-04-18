@@ -22,5 +22,5 @@ This phase unblocks Phase 2 (Core Data Models), which will add the first migrati
 ## Out of Scope
 - Environment variables / `.env` handling
 - Production build pipeline
-- Any UI or HTML rendering
+- CSS styling beyond minimal inline styles
 - Authentication or user management

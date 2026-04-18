@@ -38,3 +38,11 @@ Create:
 Refer to specs/mission.md and specs/tech-stack.md for guidance.
 
 Important: You *must* use your AskUserQuestion tool, grouped on these 3, before writing to disk.
+
+## Prompt 3.1
+
+Implement the remaining task groups.
+
+## Prompt 3.2
+
+Add a task group to the plan to have a minimal AgentClinic home page and update the rest of the feature spec to be in sync.
