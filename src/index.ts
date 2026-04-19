@@ -12,8 +12,10 @@ app.use("/static/*", serveStatic({ root: "./public", rewriteRequestPath: (p) => 
 app.get("/", (c) => c.html(homePage()));
 app.get("/health", (c) => c.json({ status: "ok" }));
 
-serve({ fetch: app.fetch, port: 3000 }, () => {
-  console.log("Server running on http://localhost:3000");
-});
+if (require.main === module) {
+  serve({ fetch: app.fetch, port: 3000 }, () => {
+    console.log("Server running on http://localhost:3000");
+  });
+}
 
 export { app };
