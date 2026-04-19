@@ -18,6 +18,7 @@
 
 ## Testing
 - **Vitest** — fast, TypeScript-native test runner with Jest-compatible API
+- All test files live in `tests/` at the project root, never inside `src/`, so they are excluded from the compiled output
 
 ## Tooling
 - `tsc` for compilation

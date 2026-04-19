@@ -20,14 +20,14 @@
 
 ## Task Group 4 — Vitest & Smoke Test
 1. Add `vitest.config.ts`
-2. Create `src/index.test.ts` with a smoke test that asserts the health endpoint returns `200`
+2. Create `tests/index.test.ts` (outside `src/`) with a smoke test that asserts the health endpoint returns `200`
 3. Confirm `npm test` passes
 
 ## Task Group 5 — Home Page
 1. Create `src/views/home.ts` returning an HTML string for the AgentClinic home page
 2. Add a `GET /` route in `src/index.ts` that serves the home page with `Content-Type: text/html`
 3. The page must include the clinic name, a one-line tagline, and a nav placeholder for future links
-4. Add a Vitest test asserting `GET /` returns `200` and the response body contains the clinic name
+4. Add a Vitest test in `tests/` asserting `GET /` returns `200` and the response body contains the clinic name
 
 ## Task Group 6 — Layout & Styles
 1. Create `src/views/header.ts`, `src/views/footer.ts`, and `src/views/layout.ts` as the three subcomponents

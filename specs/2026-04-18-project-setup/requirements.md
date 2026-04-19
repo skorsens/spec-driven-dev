@@ -11,7 +11,7 @@ The output of this phase is a running Hono server with a health-check endpoint, 
 - **Dev execution:** `tsx` (no compile step in dev); `nodemon` for hot reload
 - **Database:** `better-sqlite3` (synchronous, simple API, no ORM)
 - **Migrations:** plain `.sql` files in `migrations/`, applied in filename order on startup
-- **Testing:** Vitest; no Jest, no Mocha
+- **Testing:** Vitest; no Jest, no Mocha; all test files live in `tests/` at the project root, not inside `src/`, so they are excluded from the compiled output
 - **Views:** each layout subcomponent lives in its own file — `src/views/header.ts`, `src/views/footer.ts`, `src/views/layout.ts`; page templates (e.g. `home.ts`) import `layout()` and compose from there
 - **Static assets:** served from `public/` via `serveStatic` mounted at `/static`
 
