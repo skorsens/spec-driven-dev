@@ -63,3 +63,6 @@ Update the specs that the tests shall be in a separate folder outside the deploy
 
 Aling the code to this decision
 
+## Prompt 5.3
+
+I want to keep a CHANGELOG.md in the project root, with headings for dates. If no changelog, examine git commits and add bullets for each date. Then, as we work, we will manually invoke this skill before merging. Help me write a skill for this.
