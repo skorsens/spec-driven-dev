@@ -54,3 +54,12 @@ Update specs/2026-04-18-project-setup/plan.md and implementation of a main layou
 ## Prompt 4.2
 
 Update the spec to capture that the header, footer, and main components should be in their own files.
+
+## Prompt 5.1
+
+Update the specs that the tests shall be in a separate folder outside the deployed code. Capture this decision for the current feature all next features in this project.
+
+## Prompt 5.2
+
+Aling the code to this decision
+
